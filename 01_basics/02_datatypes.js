@@ -23,5 +23,3 @@ console.log(typeof "john"); // String
 console.log(typeof null);// Object
 console.log(typeof undefined);// Undefined
 
-
-
