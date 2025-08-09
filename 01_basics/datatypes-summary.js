@@ -59,3 +59,37 @@ console.log(typeof myFunction);// function
 // display hello world below line
 myFunction(a = 1, b = 1)
 
+// ******************************************
+
+// Stack (Primitive) and Heap (Non-primitive)
+
+console.log("\n");
+let email =  "user@gmail.com"
+let anotherEmail = email
+console.log(email)
+console.log(anotherEmail);
+anotherEmail = "john@gmail.com"
+console.log(anotherEmail)
+console.log(email);
+// Here what we understand is in stack we get the copy of original value. Here i change the email not but value of anotherEmail variable change. 
+
+let someEmail =  {
+    email: "user@gmail.com",
+    id: 8383,
+}
+let anotherUser = someEmail
+console.log("Before");
+
+console.log(someEmail);
+console.log(anotherUser);
+anotherUser.email = "azandev@gmail.com"
+// Here what happen I change the email but here the original value also change.
+console.log("After");
+
+console.log(someEmail);
+console.log(anotherUser);
+
+
+
+
+
