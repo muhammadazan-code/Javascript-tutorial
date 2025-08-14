@@ -62,13 +62,13 @@ const navbar = ({company}) => {}
 navbar(company = "abctech")
 
 console.log(navbar.company);
-{
-    "name":"john",
-    "coursename":"js in hindi",
-    "price":"free"
-}
-[
-    {},
-    {},
-    {}
-]
+// {
+//     "name":"john",
+//     "coursename":"js in hindi",
+//     "price":"free"
+// }
+// [
+//     {},
+//     {},
+//     {}
+// ]
